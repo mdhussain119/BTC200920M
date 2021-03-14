@@ -24,6 +24,7 @@ public class HomePage {
 	 
 	 public void closepromotion() {
 		 Helppage.clickonelement(promotion);
+		 System.out.println("git");
 	 }
 	 
 	public void homepagetextdisplay() {
@@ -32,6 +33,7 @@ public class HomePage {
 	public MenPage clickonmen() {
 		Helppage.clickonelement(menpage);
 		return new MenPage(dr);
+		
 		
 	}
 	 
